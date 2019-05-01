@@ -27,7 +27,7 @@ import java.io.IOException;
  * SendSmtpEmailTo
  */
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-05-24T12:07:09.251+05:30")
-public class SendSmtpEmailTo {
+public class SendSmtpEmailTo implements java.io.Serializable {
   @SerializedName("email")
   private String email = null;
 
