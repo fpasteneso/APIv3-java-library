@@ -35,7 +35,7 @@ import sibModel.SendSmtpEmailTo;
  * SendSmtpEmail
  */
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-05-24T12:07:09.251+05:30")
-public class SendSmtpEmail {
+public class SendSmtpEmail implements java.io.Serializable {
   @SerializedName("sender")
   private SendSmtpEmailSender sender = null;
 
